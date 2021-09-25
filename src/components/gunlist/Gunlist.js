@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Gunlist.css";
 
 const Gunlist = (props) => {
     console.log(props);
@@ -14,7 +15,7 @@ const Gunlist = (props) => {
             <h5>totlal price: {total}$</h5>
             <ul>
                 {
-                    list.map(gun => <li key={gun.name}>{gun.name}</li>)
+                    list.map(gun => <li className="gun-list" key={gun.name}>{gun.name}</li>)
                 }
             </ul>
         </div>
