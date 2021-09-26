@@ -17,7 +17,7 @@ const Gun = (props) => {
                         <p className="card-text">Type: {type}</p>
                         <p className="card-text">Fire-rate: {fireRate}</p>
                         <p className="card-text">Magazine-size: {magazineSize} round</p>
-                        <p className="card-text">Price: {price}$</p>
+                        <p className="card-text">Price: ${price}</p>
                         <button onClick={()=> props.handleAddGun(props.gun)} className="btn btn-secondary">{cartIcon} Add to list</button>
                     </div>
                 </div>

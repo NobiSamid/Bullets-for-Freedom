@@ -11,8 +11,8 @@ const Gunlist = (props) => {
     return (
         <div className="card-body list">
             <h3>Gun list</h3>
-            <h5>Item added:{list.length}</h5>
-            <h5>totlal price: {total}$</h5>
+            <h5>Item added: {list.length}</h5>
+            <h5>totlal price: ${total}</h5>
             <ul>
                 {
                     list.map(gun => <li className="gun-list" key={gun.name}>{gun.name}</li>)

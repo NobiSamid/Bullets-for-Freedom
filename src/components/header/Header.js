@@ -39,7 +39,7 @@ const Header = () => {
                 <div className="card-body">
                 <h1>Pick your weapons</h1>
                 <p>Don't be the ammunition wagon, be the rifle... knowledge exists primarily for use.</p>
-                <h2>Total budget:5,00,000$</h2>
+                <h2>Total budget: $5,00,000</h2>
                 </div>
           </div>
         </div>
