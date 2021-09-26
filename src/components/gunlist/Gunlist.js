@@ -2,9 +2,10 @@ import React from 'react';
 import "./Gunlist.css";
 
 const Gunlist = (props) => {
-    console.log(props);
+    //////////////// Destructuring newGunLIst array  /////////////////////
     const {list} = (props) || {};
 
+    //////////////// calculating total by Reduce //////////////////////
     const totalReducer=(prevValue, currentValue) => prevValue + currentValue.price
     const total = list.reduce(totalReducer, 0)
 

@@ -4,6 +4,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
+        {/****************** Navigation Bar ***********************/}
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                 <div className="container">
                     <a className="navbar-brand" href="#brand">Bullets for Freedom</a>
@@ -35,6 +36,7 @@ const Header = () => {
                     </div>
                 </div>
           </nav>
+          {/****************** Top Banner ***********************/}
           <div className="card banner">
                 <div className="card-body">
                 <h1>Pick your weapons</h1>

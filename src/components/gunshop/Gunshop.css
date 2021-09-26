@@ -1,11 +1,12 @@
+/*********** product and list modification **********/
 .shop-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    justify-content: space-around;
     margin-left: 25px;
     margin-top: 25px;
 }
 
+/*********** list modification **********/
 .list-container {
     margin-left: 20px;
     margin-right: 20px;

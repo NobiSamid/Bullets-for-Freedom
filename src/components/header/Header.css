@@ -1,3 +1,4 @@
+/************ Banner modification *********/
 .banner {
     margin-top: 15px;
     margin-left: 25px;
@@ -7,6 +8,8 @@
     background: #3e41595e;
 }
 
+
+/************ Banner text color *********/
 .banner h1,
 .banner p,
 .banner h2 {

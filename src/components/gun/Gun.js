@@ -4,14 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Gun = (props) => {
-    console.log(props.gun)
+    ///////// Destructuring the Gun info ///////////
     const {name, type, price, fireRate, magazineSize, image} = props.gun || {};
+
+    ///////// setting icon as a variable ///////////
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div>
             <div className="col">
                 <div className="card h-100 card-bg">
-                    <img src={image} className="card-img-top rounded-start cart-image" alt="thumbnail"></img>
+                    <img src={image} className="card-img-top rounded-start card-image" alt="thumbnail"></img>
                     <div className="card-body">
                         <h3 className="card-title">{name}</h3>
                         <p className="card-text">Type: {type}</p>
