@@ -1,4 +1,4 @@
-# Project name & pitch
+# Bullets for Freedom
 THis is a React single page application.It's theme based on an e-commarce site.
 # Project live site
 https://naughty-mahavira-e93bf8.netlify.app/
