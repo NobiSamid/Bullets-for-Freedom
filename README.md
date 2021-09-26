@@ -3,9 +3,9 @@ THis is a React single page application.It's theme based on an e-commarce site.
 # Project live site
 https://naughty-mahavira-e93bf8.netlify.app/
 # Project details
-=>It displays a data base of some GUNs as a card
-=>There is a button on every card.If you click on that button that product of the card will appare on right side of the UI .
-=>On the right side of the UI number of guns, total price of guns and the list of guns will added.
+=>It displays a data base of some GUNs as a card.\
+=>There is a button on every card.If you click on that button that product of the card will appare on right side of the UI .\
+=>On the right side of the UI number of guns, total price of guns and the list of guns will added.\
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
