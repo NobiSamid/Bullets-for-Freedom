@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
     return (
@@ -34,7 +35,7 @@ const Header = () => {
                     </div>
                 </div>
           </nav>
-          <div class="card">
+          <div class="card banner">
                 <div class="card-body">
                 <h1>Pick your weapons</h1>
                 <p>Don't be the ammunition wagon, be the rifle... knowledge exists primarily for use.</p>

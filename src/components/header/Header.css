@@ -1,0 +1,10 @@
+.banner {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background: #243b6a86;
+    -webkit-box-shadow: 21px 21px 49px #111b3165, -21px -21px 49px #375ba37e;
+    box-shadow: 21px 21px 49px #111b31, -21px -21px 49px #375ba3;
+}
