@@ -9,7 +9,12 @@
     background-color: #3e41596b;
 }
 
-.card-bg h5,
+.card-bg h3,
 .card-bg p {
-    color: white;
+    color: wheat;
+}
+
+.card-bg p {
+    font-size: large;
+    font-weight: 500;
 }
