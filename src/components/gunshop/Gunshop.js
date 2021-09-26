@@ -29,7 +29,7 @@ const Gunshop = () => {
                 ></Gun>)
             }
             </div>
-            <div className="list-container card">
+            <div className="list-container card list-bg">
             <Gunlist
              list={list}></Gunlist>
             </div>

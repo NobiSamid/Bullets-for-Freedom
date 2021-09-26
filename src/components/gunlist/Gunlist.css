@@ -1,3 +1,9 @@
 .gun-list {
     font-size: 24px;
+    color: wheat;
+}
+
+.list h5,
+.list h3 {
+    color: wheat;
 }

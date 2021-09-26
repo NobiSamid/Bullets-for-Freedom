@@ -4,3 +4,12 @@
     width: auto;
     border-radius: 50%;
 }
+
+.card-bg {
+    background-color: #3e41596b;
+}
+
+.card-bg h5,
+.card-bg p {
+    color: white;
+}

@@ -9,7 +9,7 @@ const Gunlist = (props) => {
     const total = list.reduce(totalReducer, 0)
 
     return (
-        <div className="card-body">
+        <div className="card-body list">
             <h3>Gun list</h3>
             <h5>Item added:{list.length}</h5>
             <h5>totlal price: {total}$</h5>

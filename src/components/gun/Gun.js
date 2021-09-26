@@ -10,7 +10,7 @@ const Gun = (props) => {
     return (
         <div>
             <div className="col">
-                <div className="card h-100">
+                <div className="card h-100 card-bg">
                     <img src={image} className="card-img-top rounded-start cart-image" alt="thumbnail"></img>
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>

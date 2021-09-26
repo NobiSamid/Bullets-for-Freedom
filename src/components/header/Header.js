@@ -35,8 +35,8 @@ const Header = () => {
                     </div>
                 </div>
           </nav>
-          <div class="card banner">
-                <div class="card-body">
+          <div className="card banner">
+                <div className="card-body">
                 <h1>Pick your weapons</h1>
                 <p>Don't be the ammunition wagon, be the rifle... knowledge exists primarily for use.</p>
                 <h2>Total budget:5,00,000$</h2>
